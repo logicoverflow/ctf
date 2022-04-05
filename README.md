@@ -1,2 +1,2 @@
-# ctf
-Capture The Flag Events
+# Capture The Flag Events
+
