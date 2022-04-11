@@ -12,7 +12,7 @@ _The two CTFs consist of the same questions, with the difference being the Veter
 
 #### Missing Solutions
 
-There are quite a bit of challenges lacking solutions, some due to time constraints and others due to lack of knowledge or skill.
+There are quite a bit of challenges lacking solutions, some due to time constraints on getting screenshots through the solution process and others due to lack of knowledge or skill.
 
 If you have a write up for one, consider it sending it my way  via email (logic@logicoverflow.tech) and I'll give you credit, along with a link to your site/twitter/etc. 
 
