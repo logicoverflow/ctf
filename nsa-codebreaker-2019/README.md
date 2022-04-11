@@ -1,6 +1,6 @@
 # NSA Codebreaker Challenge 2019
 
-![NSA](https://github.com/logicoverflow/nsa-codebreaker-2019/blob/main/firefox_5UadSLFsRA.png)
+![NSA](https://github.com/logicoverflow/ctf/blob/main/nsa-codebreaker-2019/firefox_5UadSLFsRA.png)
 
 ## Description
 
