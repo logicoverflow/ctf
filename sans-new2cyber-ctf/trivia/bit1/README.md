@@ -9,8 +9,8 @@ author: [@nopresearcher](https://twitter.com/NopResearcher)
 
 ## Solution
 
-Pending...
+[Bitcoin Wiki](https://en.wikipedia.org/wiki/Bitcoin)
 
 ## Flag
 
-Pending...
+**Flag**: ```satoshi```
