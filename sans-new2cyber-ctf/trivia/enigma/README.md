@@ -9,8 +9,8 @@ author: [@nopresearcher](https://twitter.com/NopResearcher)
 
 ## Solution
 
-Pending...
+[The Enigma Machine](https://brilliant.org/wiki/enigma-machine/)
 
 ## Flag
 
-Pending...
+**Flag**: ```Bombe```
