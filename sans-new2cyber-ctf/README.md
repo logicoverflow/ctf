@@ -29,8 +29,8 @@ If you have a write up for one, consider it sending it my way  via email (logic@
 ### Beanie Babies
 | Train | Those | SQL & DB | Skills |
 |------------|------------|------------|------------|
-| 0x01 Beanie Baby Collection | 0x02 Beanie Baby Flagbearer | 0x03 Beanie Bay Flagholder | 0x04 Beanie Baby SQL DB |
-| 0x05 Beanie Bay SQL DB 2 ||
+| [0x01 Beanie Baby Collection](https://github.com/logicoverflow/ctf/tree/main/sans-new2cyber-ctf/beanie/0x01) | [0x02 Beanie Baby Flagbearer](https://github.com/logicoverflow/ctf/tree/main/sans-new2cyber-ctf/beanie/0x02) | [0x03 Beanie Bay Flagholder](https://github.com/logicoverflow/ctf/tree/main/sans-new2cyber-ctf/beanie/0x03) | [0x04 Beanie Baby SQL DB](https://github.com/logicoverflow/ctf/tree/main/sans-new2cyber-ctf/beanie/0x04) |
+| [0x05 Beanie Bay SQL DB 2](https://github.com/logicoverflow/ctf/tree/main/sans-new2cyber-ctf/beanie/0x05) ||
 
 ### Tunneler
 | Tunnel | Your Way | To | Success |
@@ -42,7 +42,7 @@ If you have a write up for one, consider it sending it my way  via email (logic@
 ### trivia
 | Do | You | Has | Knowledge? |
 |------------|------------|------------|------------|
-| Enigma | Bitcoin 1 | Bitcoin 2 | Bitcoin 3 |
+| [Enigma](https://github.com/logicoverflow/ctf/blob/main/sans-new2cyber-ctf/trivia/enigma) | [Bitcoin 1](https://github.com/logicoverflow/ctf/blob/main/sans-new2cyber-ctf/trivia/bit1) | Bitcoin 2 | Bitcoin 3 |
 | Caesar | Rock You ||
 
 ### Ancient Crypto Corner
