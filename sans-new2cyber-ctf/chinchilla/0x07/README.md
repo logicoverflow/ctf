@@ -3,7 +3,7 @@
 
 ## Challenge
 
-<img src="https://github.com/logicoverflow/ctf/tree/main/sans-new2cyber-ctf/chinchilla/0x07/4mBfGxH.jpg" width="400" alt="Chinchilla leaning" />
+<img src="https://github.com/logicoverflow/ctf/blob/main/sans-new2cyber-ctf/chinchilla/0x07/4mBfGxH.jpg" width="400" alt="Chinchilla leaning" />
 
 She was starting to build a community. Next, she wanted to work on balance; both in the physical sense, as it is important for parkour and also in the sense of making sure that she wasn’t doing too many things.
 
@@ -15,9 +15,9 @@ author: [@CarpeDiemT3ch](https://twitter.com/CarpeDiemT3ch)
 
 ## Solution
 
-![Google Search](https://github.com/logicoverflow/ctf/tree/main/sans-new2cyber-ctf/chinchilla/0x07/firefox_nwXEF9NtTc.png)
+![Google Search](https://github.com/logicoverflow/ctf/blob/main/sans-new2cyber-ctf/chinchilla/0x07/firefox_nwXEF9NtTc.png)
 
-![Youtube Video](https://github.com/logicoverflow/ctf/tree/main/sans-new2cyber-ctf/chinchilla/0x07/firefox_WlDp7fVWoK.png)
+![Youtube Video](https://github.com/logicoverflow/ctf/blob/main/sans-new2cyber-ctf/chinchilla/0x07/firefox_WlDp7fVWoK.png)
 
 ## Flag
 
