@@ -41,7 +41,7 @@ author: [@CarpeDiemT3ch](https://twitter.com/CarpeDiemT3ch)
 
 ## Solution
 
-![Pulsedive for parkour.com](https://github.com/logicoverflow/sans-new2cyber-ctf/blob/main/chinchilla/0x0A/Screen%20Shot%202022-03-26%20at%2022.41.26.png)
+![Pulsedive for parkour.com](https://github.com/logicoverflow/ctf/tree/main/sans-new2cyber-ctf/chinchilla/0x0A/Screen%20Shot%202022-03-26%20at%2022.41.26.png)
 
 ## Flag
 
