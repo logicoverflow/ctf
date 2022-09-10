@@ -8,6 +8,6 @@ Below you'll find a list of CTF events in which I have participated in and saved
 
 * [NSA Codebreaker Challenge 2019](https://github.com/logicoverflow/ctf/tree/main/nsa-codebreaker-2019)
 
-# Miscellanous Events
+## Miscellanous Events
 
 * [Overthewire: Bandit](https://github.com/logicoverflow/ctf/tree/main/overthewire/bandit/)
