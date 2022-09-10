@@ -1,6 +1,6 @@
 # Task 2 - Permissions
 
-![task2](https://github.com/logicoverflow/nsa-codebreaker-2019/blob/main/task2/NSATask2.png)
+![task2](https://github.com/logicoverflow/ctf/blob/main/nsa-codebreaker-2019/task2/NSATask2.png)
 
 ## Description
 
@@ -10,7 +10,7 @@ In the first task, we obtained the terrortime APK file, found its SHA256sum hash
 
 ## Challenge & Write Up
 
-![task2](https://github.com/logicoverflow/nsa-codebreaker-2019/blob/main/task2/NSATask2.1.png)
+![task2](https://github.com/logicoverflow/ctf/blob/main/nsa-codebreaker-2019/task2/NSATask2.1.png)
 
 Task 2 Requirements:
 
@@ -22,11 +22,11 @@ If you recall from the previous challenge, we have the terrortime app from the f
 
 In Kali Linux, we will run the command ```apktool d terrortime.apk```. This command will decompress the files and extract them into a different format.
 
-![task2](https://github.com/logicoverflow/nsa-codebreaker-2019/blob/main/task2/NSATask2.2.png)
+![task2](https://github.com/logicoverflow/ctf/blob/main/nsa-codebreaker-2019/task2/NSATask2.2.png)
 
 After we go into the newly created directory, we find two files and several folders. Let’s take a look at the first file called **AndroidManifest.xml**.
 
-![task2](https://github.com/logicoverflow/nsa-codebreaker-2019/blob/main/task2/NSATask2.3.png)
+![task2](https://github.com/logicoverflow/ctf/blob/main/nsa-codebreaker-2019/task2/NSATask2.3.png)
 
 When reviewing the file, we find there are two entries specifically labeled as permission near the top of the file. The two permissions are ```INTERNET``` and ```ACCESS_NETWORK_STATE```, and we now have completed 33.3% of the task.
 
@@ -36,12 +36,12 @@ In Kali Linux, we will run the command ```apksigner verify –print-certs terror
 
 * If you’re new to Linux, the help menu might appear as if it doesn’t provide much information. However, you just may need to check the sub-help menu for the module or switch being used. For example, apksigner verify –help will give you the additional options to be used with the verify module/switch. You can also resort to using the internet and finding all you need here: https://developer.android.com/studio/command-line/apksigner.
 
-![task2](https://github.com/logicoverflow/nsa-codebreaker-2019/blob/main/task2/NSATask2.4.png)
+![task2](https://github.com/logicoverflow/ctf/blob/main/nsa-codebreaker-2019/task2/NSATask2.4.png)
 
 You will notice we are given the SHA-256 digest, which is the hash we are looking for ```32520bd39add77a5db82ec65564c3bb24f0ea327d817faeea7145d3f051efbc6```. Furthermore, you will find a line which as **CN=**, that CN is an abbreviation for **Common Name**, which in this case is ```dev_terrorTime_861561```. We now have obtained the remaining 66.6% of the requirements for the task.
 
 With the requirements of Task 2 being met, we submit what we found and receive the following message:
 
-![task2](https://github.com/logicoverflow/nsa-codebreaker-2019/blob/main/task2/NSATask2.5.png)
+![task2](https://github.com/logicoverflow/ctf/blob/main/nsa-codebreaker-2019/task2/NSATask2.5.png)
 
 Next up, Task 3!
