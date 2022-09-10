@@ -5,7 +5,7 @@
 
 Chinchilla Challenge: Cuzco’s Great Adventure
 
-<img src="https://github.com/logicoverflow/ctf/tree/main/sans-new2cyber-ctf/chinchilla/0x01/4cPtBGt.jpg" width="300" />
+<img src="https://github.com/logicoverflow/ctf/blob/main/sans-new2cyber-ctf/chinchilla/0x01/4cPtBGt.jpg" width="300" />
 
 Cuzco, the chinchilla, had always wanted to go on a grand adventure. She was boxed in, surrounded on all four sides by walls, but she was getting faster. If she could 10x (a term for upskilling a lot) her skills, continue her practice jumps and codebreaking, then maybe she could break through her walls, and get to that Parkour class she wanted to take.
 
