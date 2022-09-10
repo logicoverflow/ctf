@@ -7,7 +7,7 @@ Cuzco continued to learn more about Parkour; she was stronger, and she was ready
 
 How will she do it? What will launch her from her perch in the comfy hammock? Sometimes it can be hard to make the decision to leave our comfort zone and risk the unknown - is it really worth it? But know this, there is a community here for you.
 
-<img src="https://github.com/logicoverflow/sans-new2cyber-ctf/blob/main/chinchilla/0x06/ZqnZE6z.png" width="300" alt="Chinchilla leaning" />
+<img src="https://github.com/logicoverflow/ctf/tree/main/sans-new2cyber-ctf/chinchilla/0x06/ZqnZE6z.png" width="300" alt="Chinchilla leaning" />
 
 Cuzco decided that she would brave it, even though there were risks, and that she would fail sometimes. Her risk profile adjusted for this and she wandered into the world to find her Parkour class and work on 10x her skills. She knew she’d need community, balance, and fortitude to help her, so she continued her quest to find these 3 things.
 
@@ -25,7 +25,7 @@ author: [@CarpeDiemT3ch](https://twitter.com/CarpeDiemT3ch)
 
 ## Solution
 
-![Squirrel Obstacle Course](https://github.com/logicoverflow/sans-new2cyber-ctf/blob/main/chinchilla/0x06/firefox_vTFcYtLeoE.png)
+![Squirrel Obstacle Course](https://github.com/logicoverflow/ctf/tree/main/sans-new2cyber-ctf/chinchilla/0x06/firefox_vTFcYtLeoE.png)
 
 ## Flag
 

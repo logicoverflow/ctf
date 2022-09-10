@@ -5,7 +5,7 @@
 
 Flag 4 Use the image file to find the question:
 
-[Download Here](https://github.com/logicoverflow/sans-new2cyber-ctf/blob/main/chinchilla/0x04/believe_with_layers.png)
+[Download Here](https://github.com/logicoverflow/ctf/tree/main/sans-new2cyber-ctf/chinchilla/0x04/believe_with_layers.png)
 
 ## Solution
 
@@ -20,7 +20,7 @@ Flag 4 Use the image file to find the question:
 
 **OSINT portion:**
 
-![David Belle](https://github.com/logicoverflow/sans-new2cyber-ctf/blob/main/chinchilla/0x04/firefox_k4vmQjnON8.png)
+![David Belle](https://github.com/logicoverflow/ctf/tree/main/sans-new2cyber-ctf/chinchilla/0x04/firefox_k4vmQjnON8.png)
 
 ## Flag
 
