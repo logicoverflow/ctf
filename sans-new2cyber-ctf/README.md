@@ -1,4 +1,4 @@
-![New2Cyber-Logo](https://github.com/logicoverflow/sans-new2cyber-ctf/blob/main/logo.png)
+![New2Cyber-Logo](https://github.com/logicoverflow/ctf/blob/main/sans-new2cyber-ctf/logo.png)
 # SANS - New2Cyber CTF 2022
 Thursday, March 23rd 14:15 EDT - Friday, March 24th 14:15 EDT
 
@@ -35,8 +35,8 @@ If you have a write up for one, consider it sending it my way  via email (logic@
 ### Tunneler
 | Tunnel | Your Way | To | Success |
 |------------|------------|------------|------------|
-| [0x01 Bastion](https://github.com/logicoverflow/sans-new2cyber-ctf/tree/main/tunneler/0x01) | [0x02 Browsing Websites](https://github.com/logicoverflow/sans-new2cyber-ctf/tree/main/tunneler/0x02) | [0x03 SSH in tunnels](https://github.com/logicoverflow/sans-new2cyber-ctf/tree/main/tunneler/0x03) | [0x04 Beacons everywhere](https://github.com/logicoverflow/sans-new2cyber-ctf/tree/main/tunneler/0x04) |
-| [0x05 Beacons annoying](https://github.com/logicoverflow/sans-new2cyber-ctf/tree/main/tunneler/0x05) | 0x06 Scan me | 0x07 Another Pivot | 0x08 snmp |
+| [0x01 Bastion](https://github.com/logicoverflow/ctf/tree/main/sans-new2cyber-ctf/tunneler/0x01) | [0x02 Browsing Websites](https://github.com/logicoverflow/ctf/tree/main/sans-new2cyber-ctf/tunneler/0x02) | [0x03 SSH in tunnels](https://github.com/logicoverflow/ctf/tree/main/sans-new2cyber-ctf/tunneler/0x03) | [0x04 Beacons everywhere](https://github.com/logicoverflow/ctf/tree/main/sans-new2cyber-ctf/tunneler/0x04) |
+| [0x05 Beacons annoying](https://github.com/logicoverflow/ctf/tree/main/sans-new2cyber-ctf/tunneler/0x05) | 0x06 Scan me | 0x07 Another Pivot | 0x08 snmp |
 | 0x09 Browsing websites 2 ||
 
 ### trivia
@@ -48,8 +48,8 @@ If you have a write up for one, consider it sending it my way  via email (logic@
 ### Ancient Crypto Corner
 | The | Secrets | Of The | Ancient Ones |
 |------------|------------|------------|------------|
-| [Bacon for Breakfast](https://github.com/logicoverflow/sans-new2cyber-ctf/tree/main/ancient-crypto-corner/bacon) | [Rosicrucian Brotherhood](https://github.com/logicoverflow/sans-new2cyber-ctf/tree/main/ancient-crypto-corner/rosicrucian) | [Order of the Temple](https://github.com/logicoverflow/sans-new2cyber-ctf/tree/main/ancient-crypto-corner/order) | [Trithemius Ave Maria](https://github.com/logicoverflow/sans-new2cyber-ctf/tree/main/ancient-crypto-corner/trithemius) |
-| [Queen of Scots](https://github.com/logicoverflow/sans-new2cyber-ctf/tree/main/ancient-crypto-corner/queen) | [The name's Caesar](https://github.com/logicoverflow/sans-new2cyber-ctf/tree/main/ancient-crypto-corner/caesar) ||
+| [Bacon for Breakfast](https://github.com/logicoverflow/ctf/tree/main/sans-new2cyber-ctf/ancient-crypto-corner/bacon) | [Rosicrucian Brotherhood](https://github.com/logicoverflow/ctf/tree/main/sans-new2cyber-ctf/ancient-crypto-corner/rosicrucian) | [Order of the Temple](https://github.com/logicoverflow/ctf/tree/main/sans-new2cyber-ctf/ancient-crypto-corner/order) | [Trithemius Ave Maria](https://github.com/logicoverflow/ctf/tree/main/sans-new2cyber-ctf/ancient-crypto-corner/trithemius) |
+| [Queen of Scots](https://github.com/logicoverflow/ctf/tree/main/sans-new2cyber-ctf/ancient-crypto-corner/queen) | [The name's Caesar](https://github.com/logicoverflow/ctf/tree/main/sans-new2cyber-ctf/ancient-crypto-corner/caesar) ||
 
 ### Bacon Recipe
 | Mmmmmmm | Delicious | Glorious | Bacon |
@@ -60,16 +60,16 @@ If you have a write up for one, consider it sending it my way  via email (logic@
 ### Chinchilla Challenge New2Cyber
 | Chinchillas | Love | Cyber | Challenges |
 |------------|------------|------------|------------|
-| [0x01 Cuzco's Great Adventure](https://github.com/logicoverflow/sans-new2cyber-ctf/blob/main/chinchilla/0x01/) | [0x02 Cuzco's Great Adventure](https://github.com/logicoverflow/sans-new2cyber-ctf/blob/main/chinchilla/0x02/) | [0x03 Cuzco's Great Adventure](https://github.com/logicoverflow/sans-new2cyber-ctf/tree/main/chinchilla/0x03/) | [0x04 Cuzco's Great Adventure](https://github.com/logicoverflow/sans-new2cyber-ctf/blob/main/chinchilla/0x04/README.md) |
-| [0x05 Cuzco's Great Adventure](https://github.com/logicoverflow/sans-new2cyber-ctf/blob/main/chinchilla/0x05/README.md) | [0x06 Cuzco's Great Adventure](https://github.com/logicoverflow/sans-new2cyber-ctf/blob/main/chinchilla/0x06/README.md) | [0x07 Cuzco's Great Adventure](https://github.com/logicoverflow/sans-new2cyber-ctf/blob/main/chinchilla/0x07/README.md) | [0x08 Cuzco's Great Adventure](https://github.com/logicoverflow/sans-new2cyber-ctf/blob/main/chinchilla/0x08/README.md) |
-| [0x09 Cuzco's Great Adventure](https://github.com/logicoverflow/sans-new2cyber-ctf/blob/main/chinchilla/0x09/README.md) | [0x0A Cuzco's Great Adventure](https://github.com/logicoverflow/sans-new2cyber-ctf/blob/main/chinchilla/0x0A/README.md) ||
+| [0x01 Cuzco's Great Adventure](https://github.com/logicoverflow/ctf/tree/main/sans-new2cyber-ctf/chinchilla/0x01/) | [0x02 Cuzco's Great Adventure](https://github.com/logicoverflow/ctf/tree/main/sans-new2cyber-ctf/chinchilla/0x02/) | [0x03 Cuzco's Great Adventure](https://github.com/logicoverflow/ctf/tree/main/sans-new2cyber-ctf/chinchilla/0x03/) | [0x04 Cuzco's Great Adventure](hhttps://github.com/logicoverflow/ctf/tree/main/sans-new2cyber-ctf/chinchilla/0x04/) |
+| [0x05 Cuzco's Great Adventure](https://github.com/logicoverflow/ctf/tree/main/sans-new2cyber-ctf/chinchilla/0x05/) | [0x06 Cuzco's Great Adventure](https://github.com/logicoverflow/ctf/tree/main/sans-new2cyber-ctf/chinchilla/0x06/) | [0x07 Cuzco's Great Adventure](https://github.com/logicoverflow/ctf/tree/main/sans-new2cyber-ctf/chinchilla/0x07/) | [0x08 Cuzco's Great Adventure](https://github.com/logicoverflow/ctf/tree/main/sans-new2cyber-ctf/chinchilla/0x08/) |
+| [0x09 Cuzco's Great Adventure](https://github.com/logicoverflow/ctf/tree/main/sans-new2cyber-ctf/chinchilla/0x09/) | [0x0A Cuzco's Great Adventure](https://github.com/logicoverflow/ctf/tree/main/sans-new2cyber-ctf/chinchilla/0x0A/) ||
 
 ### crypto-ciphers-n-encodings
 | Ultimate | Obfuscation | By | Cryptography |
 |------------|------------|------------|------------|
-| [Mind the Padding](https://github.com/logicoverflow/sans-new2cyber-ctf/tree/main/crypto-ciphers-n-encodings/pad) | [Don't touch the third rail](https://github.com/logicoverflow/sans-new2cyber-ctf/tree/main/crypto-ciphers-n-encodings/rail) | Non-standard NetBIOS Offset | [All about that base](https://github.com/logicoverflow/sans-new2cyber-ctf/tree/main/crypto-ciphers-n-encodings/base) |
-| [Two Streams](https://github.com/logicoverflow/sans-new2cyber-ctf/tree/main/crypto-ciphers-n-encodings/streams) | [All about that base remix](https://github.com/logicoverflow/sans-new2cyber-ctf/tree/main/crypto-ciphers-n-encodings/base-remix) | Why are they even in that order | AFSC 29331 |
-| [et tu brute](https://github.com/logicoverflow/sans-new2cyber-ctf/tree/main/crypto-ciphers-n-encodings/brute) | [n Eggs](https://github.com/logicoverflow/sans-new2cyber-ctf/tree/main/crypto-ciphers-n-encodings/eggs) ||
+| [Mind the Padding](https://github.com/logicoverflow/ctf/tree/main/sans-new2cyber-ctf/crypto-ciphers-n-encodings/pad) | [Don't touch the third rail](https://github.com/logicoverflow/ctf/tree/main/sans-new2cyber-ctf/crypto-ciphers-n-encodings/rail) | Non-standard NetBIOS Offset | [All about that base](https://github.com/logicoverflow/ctf/tree/main/sans-new2cyber-ctf/crypto-ciphers-n-encodings/base) |
+| [Two Streams](https://github.com/logicoverflow/ctf/tree/main/sans-new2cyber-ctf/crypto-ciphers-n-encodings/streams) | [All about that base remix](https://github.com/logicoverflow/ctf/tree/main/sans-new2cyber-ctf/crypto-ciphers-n-encodings/base-remix) | Why are they even in that order | AFSC 29331 |
+| [et tu brute](https://github.com/logicoverflow/ctf/tree/main/sans-new2cyber-ctf/crypto-ciphers-n-encodings/brute) | [n Eggs](https://github.com/logicoverflow/ctf/tree/main/sans-new2cyber-ctf/crypto-ciphers-n-encodings/eggs) ||
 
 ## Rules of Engagement
 **READ ALL OF THESE RULES - Every part of this is important!**
