@@ -68,4 +68,4 @@ With the requirements of Task 1 being met, we submit what we found and receive t
 
 ![task1](https://github.com/logicoverflow/ctf/blob/main/nsa-codebreaker-2019/task1/NSATask1.6.png)
 
-Next up, Task2!
+Next up, Task 2!
