@@ -1,6 +1,6 @@
 # Task 1 - It Begins!
 
-![task1](https://github.com/logicoverflow/nsa-codebreaker-2019/blob/main/task1/NSATask1.png)
+![task1](https://github.com/logicoverflow/ctf/blob/main/nsa-codebreaker-2019/task1/NSATask1.png)
 
 ## Description
 
@@ -24,7 +24,7 @@ The first three tasks of the challenge will provide you with everything you need
 
 ## Challenge & Write Up
 
-![task1](https://github.com/logicoverflow/nsa-codebreaker-2019/blob/main/task1/NSATask1.1.png)
+![task1](https://github.com/logicoverflow/ctf/blob/main/nsa-codebreaker-2019/task1/NSATask1.1.png)
 
 Task 1 Requirements:
 
@@ -35,13 +35,13 @@ We are given some information regarding the storyline and our needed involvement
 
 To view the information about the captured traffic, we will use a widely popular program called Wireshark. For those who are not familiar with Wireshark, it is a free and open-source packet analyzer used for network troubleshooting, analysis, software, and communications protocol development. After downloading the file and opening it in Wireshark, we are presented with thousands of packets. Immediately in green, I notice the terrortime.apk app was downloaded with the GET protocol, which could have been a wget, curl, or visit in a browser.
 
-![task1](https://github.com/logicoverflow/nsa-codebreaker-2019/blob/main/task1/NSATask1.2.png)
+![task1](https://github.com/logicoverflow/ctf/blob/main/nsa-codebreaker-2019/task1/NSATask1.2.png)
 
 You are able to extract objects from various types of traffic from HTTP using Wireshark, which is what we will do to obtain the APK file.
 
 You need to go to ***File -> Export Objects -> HTTP...***
 
-![task1](https://github.com/logicoverflow/nsa-codebreaker-2019/blob/main/task1/NSATask1.3.png)
+![task1](https://github.com/logicoverflow/ctf/blob/main/nsa-codebreaker-2019/task1/NSATask1.3.png)
 
 You will find that there are two files available to download from the captured traffic. We know the APK file is needed in order to obtain the SHA256 hash, but we will download the other file as it may potentially contain valuable information to our mission.
 
@@ -51,13 +51,13 @@ Using Kali’s built-in function, we will enter the following command ```sha256s
 
 ```a166eaf4608e6755f604fdc0176d4e961e695862b45aee778aec20f305b637af```
 
-![task1](https://github.com/logicoverflow/nsa-codebreaker-2019/blob/main/task1/NSATask1.4.png)
+![task1](https://github.com/logicoverflow/ctf/blob/main/nsa-codebreaker-2019/task1/NSATask1.4.png)
 
 We have now completed 50% of task 1!
 
 Next is for us to obtain the 2 client’s registration data. We do not really know where to go to find that data, but I do recall we downloaded two files… let’s take a look at that second file. Reviewing the file, we find that it contains the client ID and client secret for two users. This must be the last piece of information that we are looking for as both pieces form a type of authentication.
 
-![task1](https://github.com/logicoverflow/nsa-codebreaker-2019/blob/main/task1/NSATask1.5.png)
+![task1](https://github.com/logicoverflow/ctf/blob/main/nsa-codebreaker-2019/task1/NSATask1.5.png)
 
 We formulate the two pieces of data into two strings for submission
 
@@ -66,6 +66,6 @@ We formulate the two pieces of data into two strings for submission
 
 With the requirements of Task 1 being met, we submit what we found and receive the following message:
 
-![task1](https://github.com/logicoverflow/nsa-codebreaker-2019/blob/main/task1/NSATask1.6.png)
+![task1](https://github.com/logicoverflow/ctf/blob/main/nsa-codebreaker-2019/task1/NSATask1.6.png)
 
 Next up, Task2!
