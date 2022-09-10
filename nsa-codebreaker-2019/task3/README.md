@@ -1,6 +1,6 @@
 # Task 3 - Turn of Events
 
-![task3](https://github.com/logicoverflow/nsa-codebreaker-2019/blob/main/task3/NSATask3.png)
+![task3](https://github.com/logicoverflow/ctf/blob/main/nsa-codebreaker-2019/task3/NSATask3.png)
 
 ## Description
 
@@ -10,7 +10,7 @@ In the first task, we obtained the terrortime APK file, found its SHA256sum hash
 
 ## Challenge & Write Up
 
-![task3](https://github.com/logicoverflow/nsa-codebreaker-2019/blob/main/task3/NSATask3.1.png)
+![task3](https://github.com/logicoverflow/ctf/blob/main/nsa-codebreaker-2019/task3/NSATask3.1.png)
 
 Task 3 Requirements:
 
@@ -30,17 +30,17 @@ Let us open the database by entering ```.open clientDB.db``` We will need to kno
 * **Messages** – CREATE TABLE Messages(tstamp INTEGER, cid TEXT NOT NULL,contactid TEXT NOT NULL, fromclient INTEGER,msg BLOB );
 
 
-![task3](https://github.com/logicoverflow/nsa-codebreaker-2019/blob/main/task3/NSATask3.2.png)
+![task3](https://github.com/logicoverflow/ctf/blob/main/nsa-codebreaker-2019/task3/NSATask3.2.png)
 
 Great, we know the schema for each table! To see if any of those tables have any data, we will perform a SQL Query. To see the data for the **Clients** table, we enter ```SELECT * FROM Clients;```
 
 We are presented with data from the table, which seems to be only one record.
 
-![task3](https://github.com/logicoverflow/nsa-codebreaker-2019/blob/main/task3/NSATask3.3.png)
+![task3](https://github.com/logicoverflow/ctf/blob/main/nsa-codebreaker-2019/task3/NSATask3.3.png)
 
 Reviewing the record, we find two addresses: **register.terrortime.app** and **chat.terrortime.app**, which corresponds to our request of the address for two servers. We need to obtain the IP address for each of those domains. You can easily do this by performing a ping against them. We enter ```ping register.terrortime.app``` and ```ping chat.terrortime.app```, and receive **54.197.185.236** , **51.91.5.130** respectively.
 
-![task3](https://github.com/logicoverflow/nsa-codebreaker-2019/blob/main/task3/NSATask3.4.png)
+![task3](https://github.com/logicoverflow/ctf/blob/main/nsa-codebreaker-2019/task3/NSATask3.4.png)
 
 Judging from their name, the register sub-domain must be the OAUTH (Open Authentication) server and the chat sub-domain must be the XMPP (Extensible Messaging and Presence Protocol) server.
 
@@ -49,6 +49,6 @@ Judging from their name, the register sub-domain must be the OAUTH (Open Authent
 
 With the requirements of Task 3 being met, we submit what we found and receive the following message:
 
-![task3](https://github.com/logicoverflow/nsa-codebreaker-2019/blob/main/task3/NSATask3.5.png)
+![task3](https://github.com/logicoverflow/ctf/blob/main/nsa-codebreaker-2019/task3/NSATask3.5.png)
 
 With the completion of Task 3, I have reached as far as I have while the challenge was going on due to time constraints.
