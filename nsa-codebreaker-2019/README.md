@@ -10,8 +10,8 @@ While the challenge is intended for students, professors are encouraged to parti
 
 ## Challenges & Write Ups
 
-* [Task 1](https://github.com/logicoverflow/nsa-codebreaker-2019/tree/main/task1)
+* [Task 1](https://github.com/logicoverflow/ctf/tree/main/nsa-codebreaker-2019/task1)
 
-* [Task 2](https://github.com/logicoverflow/nsa-codebreaker-2019/tree/main/task2)
+* [Task 2](https://github.com/logicoverflow/ctf/tree/main/nsa-codebreaker-2019/task2)
 
-* [Task 3](https://github.com/logicoverflow/nsa-codebreaker-2019/tree/main/task3)
+* [Task 3](https://github.com/logicoverflow/ctf/tree/main/nsa-codebreaker-2019/task3)
