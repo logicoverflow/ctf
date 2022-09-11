@@ -1,24 +1,24 @@
-# Level 6
+# Level 7
 
 ## Challenge
 
-The password for the next level is stored in a file somewhere under the **inhere** directory and has all of the following properties:
+The password for the next level is stored somewhere on the server and has all of the following properties:
 
-- human-readable
-- 1033 bytes in size
-- not executable
+    owned by user bandit7
+    owned by group bandit6
+    33 bytes in size
 
-Reference: [Bandit Level 6](https://overthewire.org/wargames/bandit/bandit6.html)
+Reference: [Bandit Level 7](https://overthewire.org/wargames/bandit/bandit7.html)
 
 #### Commands you may need to solve this level
 
-```ls```, ```cd```, ```cat```, ```file```, ```du```, ```find```
+```ls```, ```cd```, ```cat```, ```file```, ```du```, ```find```, ```grep```
 
 ## Solution
 
 ```
 ┌──(logicoverflow㉿RZR-LP)-[~]
-└─$ ./bandit.sh 5
+└─$ ./bandit.sh 6
                          _                     _ _ _
                         | |__   __ _ _ __   __| (_) |_
                         | '_ \ / _` | '_ \ / _` | | __|
@@ -29,7 +29,7 @@ Reference: [Bandit Level 6](https://overthewire.org/wargames/bandit/bandit6.html
                       This is an OverTheWire game server.
             More information on http://www.overthewire.org/wargames
 
-bandit5@bandit.labs.overthewire.org's password:
+bandit6@bandit.labs.overthewire.org's password:
 
       ,----..            ,----,          .---.
      /   /   \         ,/   .`|         /. ./|
@@ -115,16 +115,16 @@ discord or IRC.
 
   Enjoy your stay!
 
-bandit5@bandit:~$ cd inhere/
-bandit5@bandit:~/inhere$ ls
-maybehere00  maybehere02  maybehere04  maybehere06  maybehere08  maybehere10  maybehere12  maybehere14  maybehere16  maybehere18
-maybehere01  maybehere03  maybehere05  maybehere07  maybehere09  maybehere11  maybehere13  maybehere15  maybehere17  maybehere19
-bandit5@bandit:~/inhere$ find . -size 1033c ! -executable -exec file {} +
-./maybehere07/.file2: ASCII text, with very long lines (1000)
-bandit5@bandit:~/inhere$ cat maybehere07/.file2
-P4L4vucdmLnm8I7Vl7jG1ApGSfjYKqJU
+bandit6@bandit:~$ cd /
+bandit6@bandit:/$ ls
+bin   dev  home     lib    lib64   lost+found  mnt  proc  run   snap  sys  usr
+boot  etc  krypton  lib32  libx32  media       opt  root  sbin  srv   tmp  var
+bandit6@bandit:/$ find . -size 33c -group bandit6 -user bandit7 2>/dev/null
+./var/lib/dpkg/info/bandit7.password
+bandit6@bandit:/$ cat var/lib/dpkg/info/bandit7.password
+z7WtoNQU2XfjmMtWA8u5rN4vzqu4v99S
 ```
 
 ## Flag
 
-```P4L4vucdmLnm8I7Vl7jG1ApGSfjYKqJU```
+```z7WtoNQU2XfjmMtWA8u5rN4vzqu4v99S```

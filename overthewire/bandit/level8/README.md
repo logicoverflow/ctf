@@ -1,24 +1,20 @@
-# Level 6
+# Level 8
 
 ## Challenge
 
-The password for the next level is stored in a file somewhere under the **inhere** directory and has all of the following properties:
+The password for the next level is stored in the file **data.txt** next to the word **millionth**.
 
-- human-readable
-- 1033 bytes in size
-- not executable
-
-Reference: [Bandit Level 6](https://overthewire.org/wargames/bandit/bandit6.html)
+Reference: [Bandit Level 8](https://overthewire.org/wargames/bandit/bandit8.html)
 
 #### Commands you may need to solve this level
 
-```ls```, ```cd```, ```cat```, ```file```, ```du```, ```find```
+```man```, ```grep```, ```sort```, ```uniq```, ```strings```, ```base64```, ```tr```, ```tar```, ```gzip```, ```bzip2```, ```xxd```
 
 ## Solution
 
 ```
 ┌──(logicoverflow㉿RZR-LP)-[~]
-└─$ ./bandit.sh 5
+└─$ ./bandit.sh 7
                          _                     _ _ _
                         | |__   __ _ _ __   __| (_) |_
                         | '_ \ / _` | '_ \ / _` | | __|
@@ -29,7 +25,7 @@ Reference: [Bandit Level 6](https://overthewire.org/wargames/bandit/bandit6.html
                       This is an OverTheWire game server.
             More information on http://www.overthewire.org/wargames
 
-bandit5@bandit.labs.overthewire.org's password:
+bandit7@bandit.labs.overthewire.org's password:
 
       ,----..            ,----,          .---.
      /   /   \         ,/   .`|         /. ./|
@@ -115,16 +111,21 @@ discord or IRC.
 
   Enjoy your stay!
 
-bandit5@bandit:~$ cd inhere/
-bandit5@bandit:~/inhere$ ls
-maybehere00  maybehere02  maybehere04  maybehere06  maybehere08  maybehere10  maybehere12  maybehere14  maybehere16  maybehere18
-maybehere01  maybehere03  maybehere05  maybehere07  maybehere09  maybehere11  maybehere13  maybehere15  maybehere17  maybehere19
-bandit5@bandit:~/inhere$ find . -size 1033c ! -executable -exec file {} +
-./maybehere07/.file2: ASCII text, with very long lines (1000)
-bandit5@bandit:~/inhere$ cat maybehere07/.file2
-P4L4vucdmLnm8I7Vl7jG1ApGSfjYKqJU
+bandit7@bandit:~$ head data.txt
+Weddell's       o8S2mUyOlnSJvej8IIC3Jd8qBM7jLYeL
+sucks   SVP9VgB4uSJKMejmdRC2u20NI4tLC9JH
+genders 11EjE7xEF0vjvMOXDFpUucGXgU706iKX
+vagrants        h7Wb2ZHWx9TtGLsJIQn5IyH2A3CkcZFc
+shrewed oEl7VCrKajDdbXvJrW9IVUlk2KA0GPZs
+imbecile's      P7nHwuVBUWnFTXPvSpjWFlimJASMOUNa
+reexamining     VQbmDcurUPB9koHHeCRugBvBpMpM6V0c
+emailed 85cYMCVUneJDwT5prLClMlKT1rhqKZgj
+barometers      3wKwiJ7YhZdpjypRO9kfQNmJjp66to8d
+Ephesian        6KvOfHGIHnvWIwQruJXPQFhA1Plheicd
+bandit7@bandit:~$ cat data.txt | grep millionth
+millionth       TESKZC0XvTetK0S9xNwm25STk5iWrBvP
 ```
 
 ## Flag
 
-```P4L4vucdmLnm8I7Vl7jG1ApGSfjYKqJU```
+```TESKZC0XvTetK0S9xNwm25STk5iWrBvP```

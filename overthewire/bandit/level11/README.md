@@ -1,24 +1,20 @@
-# Level 6
+# Level 11
 
 ## Challenge
 
-The password for the next level is stored in a file somewhere under the **inhere** directory and has all of the following properties:
+The password for the next level is stored in the file **data.txt**, which contains base64 encoded data.
 
-- human-readable
-- 1033 bytes in size
-- not executable
-
-Reference: [Bandit Level 6](https://overthewire.org/wargames/bandit/bandit6.html)
+Reference: [Bandit Level 11](https://overthewire.org/wargames/bandit/bandit11.html)
 
 #### Commands you may need to solve this level
 
-```ls```, ```cd```, ```cat```, ```file```, ```du```, ```find```
+```grep```, ```sort```, ```uniq```, ```strings```, ```base64```, ```tr```, ```tar```, ```gzip```, ```bzip2```, ```xxd```
 
 ## Solution
 
 ```
 ┌──(logicoverflow㉿RZR-LP)-[~]
-└─$ ./bandit.sh 5
+└─$ ./bandit.sh 10
                          _                     _ _ _
                         | |__   __ _ _ __   __| (_) |_
                         | '_ \ / _` | '_ \ / _` | | __|
@@ -29,7 +25,7 @@ Reference: [Bandit Level 6](https://overthewire.org/wargames/bandit/bandit6.html
                       This is an OverTheWire game server.
             More information on http://www.overthewire.org/wargames
 
-bandit5@bandit.labs.overthewire.org's password:
+bandit10@bandit.labs.overthewire.org's password:
 
       ,----..            ,----,          .---.
      /   /   \         ,/   .`|         /. ./|
@@ -115,16 +111,14 @@ discord or IRC.
 
   Enjoy your stay!
 
-bandit5@bandit:~$ cd inhere/
-bandit5@bandit:~/inhere$ ls
-maybehere00  maybehere02  maybehere04  maybehere06  maybehere08  maybehere10  maybehere12  maybehere14  maybehere16  maybehere18
-maybehere01  maybehere03  maybehere05  maybehere07  maybehere09  maybehere11  maybehere13  maybehere15  maybehere17  maybehere19
-bandit5@bandit:~/inhere$ find . -size 1033c ! -executable -exec file {} +
-./maybehere07/.file2: ASCII text, with very long lines (1000)
-bandit5@bandit:~/inhere$ cat maybehere07/.file2
-P4L4vucdmLnm8I7Vl7jG1ApGSfjYKqJU
+  bandit10@bandit:~$ ls
+data.txt
+bandit10@bandit:~$ head data.txt
+VGhlIHBhc3N3b3JkIGlzIDZ6UGV6aUxkUjJSS05kTllGTmI2blZDS3pwaGxYSEJNCg==
+bandit10@bandit:~$ cat data.txt | base64 -d
+The password is 6zPeziLdR2RKNdNYFNb6nVCKzphlXHBM
 ```
 
 ## Flag
 
-```P4L4vucdmLnm8I7Vl7jG1ApGSfjYKqJU```
+```6zPeziLdR2RKNdNYFNb6nVCKzphlXHBM```
