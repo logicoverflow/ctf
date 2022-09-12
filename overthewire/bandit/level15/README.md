@@ -133,7 +133,11 @@ jN2kgmIXJ6fShzhT2avhotn4Zcka6tnt
 or
 
 ```
-bandit14@bandit:~$ echo "fGrHPx402xGC7U7rXKDaxiWFTOiF0ENq" | nc localhost 30000
+bandit14@bandit:~$ telnet localhost 30000
+Trying 127.0.0.1...
+Connected to localhost.
+Escape character is '^]'.
+fGrHPx402xGC7U7rXKDaxiWFTOiF0ENq
 Correct!
 jN2kgmIXJ6fShzhT2avhotn4Zcka6tnt
 ```
