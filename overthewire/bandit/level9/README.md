@@ -226,8 +226,8 @@ bandit8@bandit:~$ sort data.txt | uniq -c
      10 ZeUYvhRpgIJkdO9FQpoVXvkukvDGiFKD
      10 zJmXl1uLmwGC7r6mhGj1MJ0WEepnHSoT
      10 Zull6EmfASvJeHFJD9cgOWF9BsR51e4s
-     ```
+```
 
-     ## Flag
+## Flag
 
-     ```EN632PlfYiZbn3PhVK3XOGSlNInNE00t```
+```EN632PlfYiZbn3PhVK3XOGSlNInNE00t```
